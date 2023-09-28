@@ -9,7 +9,7 @@
     },
     "scripts": {
     "start": "node index.js",
-    "build": "cd apw70/ && npm install && npm run build"
+    "build": "cd apw70/ && npm i && npm install && npm run build"
     },
   "keywords": [],
   "author": "",
