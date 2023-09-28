@@ -9,8 +9,11 @@
     },
     "scripts": {
     "start": "node index.js",
-    "build": "cd apw70/ && npm install && npm install react-scripts && npm start"
+    "build": "cd apw70/ && npm install && npm start"
     },
+    "dependencies": {
+    "express": "^4.16.4"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
