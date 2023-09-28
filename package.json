@@ -11,6 +11,10 @@
     "start": "node index.js",
     "build": "cd apw70/ && npm install && npm start"
     },
+    "cacheDirectories": [
+    "node_modules",
+    "apw70/node_modules"
+  ],
     "dependencies": {
     "express": "^4.16.4"
   },
