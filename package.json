@@ -9,7 +9,7 @@
     },
     "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix apw70 && npm run build --prefix apw70"
+    "build": "cd apw70/ && npm install && npm run build"
     },
   "keywords": [],
   "author": "",
